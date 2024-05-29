@@ -1,4 +1,4 @@
-import { FC } from "react";
+// import { FC } from "react";
 
 interface IProps {
     items:{
@@ -7,7 +7,8 @@ interface IProps {
     }[]
 }
 
-export const SideBar:FC<IProps> = ({items})=> (
+// export const SideBar:FC<IProps> = ({items})=> (
+export const SideBar = ({items} : IProps)=> (
     <div>
     {
         items.map(item=> (

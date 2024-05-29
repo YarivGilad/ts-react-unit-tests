@@ -1,8 +1,8 @@
-import { FC } from "react";
+// import { FC } from "react";
 
-interface IProps {
+interface Props {
     name: string;
 }
-export const Person:FC<IProps> = ({name})=> (
+export const Person = ({name}:Props)=> (
     <div role="contentinfo" title="The name">Name is {name}</div>
 )
